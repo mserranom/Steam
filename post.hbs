@@ -1,5 +1,7 @@
 {{!< default}}
 
+ <h1 class="blog-title" style="position:absolute; top:-15px; left:20px; font-weight:normal; font-size:15px"><a href="{{@blog.url}}">&lt; back</a></h1>
+
 <main class="content" role="main">
 
     <article class="{{post_class}}">
@@ -42,9 +44,7 @@
 
         {{/post}}
 
-        {{!> comments-disqus}}
-        {{!> comments-facebook}}
-        {{!> comments-google-plus}}
+       {{> comments-disqus}}
 
     </article>
 

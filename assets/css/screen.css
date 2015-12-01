@@ -106,7 +106,7 @@ article.preview,
 a.archive-link,
 .article-nav {
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 650px;
   width: 90%;
 }
 #site-head img {
@@ -139,12 +139,13 @@ article.preview p.readmore {
 }
 h1.blog-title,
 h2.blog-description {
-  text-align: left;
+  text-align: center;
 }
 h1.blog-title {
-  font-size: 50px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 52px;
-  margin-top: 80px;
+  margin-top: 5px;
   margin-bottom: 5px;
   padding: 0;
 }
@@ -228,7 +229,6 @@ blockquote {
   font-weight: 300;
   line-height: 1.2em;
   font-style: italic;
-  text-transform: uppercase;
   border-left: 0.4em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
   padding-right: 1.5em;
@@ -303,7 +303,7 @@ footer section {
   font-weight: 300;
   font-size: 18px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 650px;
   text-transform: uppercase;
   width: 90%;
 }
@@ -319,7 +319,7 @@ nav {
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
-  max-width: 600px;
+  max-width: 650px;
 }
 nav ul {
   list-style: none;
@@ -384,7 +384,7 @@ a.archive-link {
 .pagination {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
@@ -673,10 +673,23 @@ section.author .meta a {
 h1.posts-tagged {
   margin: -17px auto -17px;
   text-align: center;
-  max-width: 600px;
+  max-width: 650px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   color: #596364;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
+}
+
+pre code {  
+    word-wrap: normal;
+    white-space: pre;
+}
+
+.about-me {
+  border-bottom: 1px solid #ecf0f1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(236, 240, 241);
+  /*margin-bottom: 40px;*/
 }
